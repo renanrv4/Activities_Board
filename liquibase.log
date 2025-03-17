@@ -1,0 +1,52 @@
+mar. 17, 2025 5:15:50 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503132303.sql
+mar. 17, 2025 5:15:50 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503171014.sql
+mar. 17, 2025 5:15:50 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503171023.sql
+mar. 17, 2025 5:15:50 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503171026.sql
+mar. 17, 2025 5:15:50 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503171701.sql
+mar. 17, 2025 5:15:51 PM liquibase.changelog
+INFO: Reading from board.databasechangelog
+mar. 17, 2025 5:15:51 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+mar. 17, 2025 5:15:51 PM liquibase.command
+INFO: Using deploymentId: 2242551225
+mar. 17, 2025 5:15:51 PM liquibase.changelog
+INFO: Reading from board.databasechangelog
+Running Changeset: db/changelog/migrations/db.changelog-202503171701.sql::202503171701::renan
+mar. 17, 2025 5:15:51 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 17, 2025 5:15:51 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202503171701.sql::202503171701::renan ran successfully in 91ms
+
+UPDATE SUMMARY
+Run:                          1
+Previously run:               4
+Filtered out:                 0
+-------------------------------
+Total change sets:            5
+
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: UPDATE SUMMARY
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: Run:                          1
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: Previously run:               4
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: Filtered out:                 0
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: -------------------------------
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: Total change sets:            5
+mar. 17, 2025 5:15:51 PM liquibase.util
+INFO: Update summary generated
+mar. 17, 2025 5:15:51 PM liquibase.command
+INFO: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 1
+mar. 17, 2025 5:15:51 PM liquibase.lockservice
+INFO: Successfully released change log lock
+mar. 17, 2025 5:15:51 PM liquibase.command
+INFO: Command execution complete
